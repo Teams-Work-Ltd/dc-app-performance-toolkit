@@ -12,20 +12,20 @@
 # Unique name of your small-scale test cluster.
 # This value can not be altered after the configuration has been applied.
 # ! REQUIRED !
-environment_name = "dcapt-product-small"
+environment_name = "dcapt-jira-small"
 
 # Supported products: jira, confluence and bitbucket.
 # For JSM set product as jira.
 # e.g.: products = ["jira"]
 # ! REQUIRED !
-products = ["product-to-deploy"]
+products = ["jira"]
 
 # License
 # To avoid storing license in a plain text file, we recommend storing it in an environment variable prefixed with `TF_VAR_` (i.e. `TF_VAR_jira_license`) and keep the below line commented out
 # If storing license as plain-text is not a concern for this environment, feel free to uncomment the following line and supply the license here.
 # ! IMPORTANT ! Please make sure valid license is used without spaces and new line symbols.
 # ! REQUIRED !
-jira_license = "jira-license"
+jira_license = "AAAB6A0ODAoPeNqVUttu2kAUfPdXrNSXVqpdXwIFpJVKbbdx5AvBJISKl8U+gBt77eyuSejXZ21A0JIg9XFndWbOzJwPMRFoWDFkWEjvDTqdgWEi25kgUzevFJsBEVlJHSIAN4iqX6mGpfhZApTDZFtBSArAdhQE7tj2hr7yO2NE2/+7adZMYzecuOPR2ItdJayLBbBoeceBcawaByr3pcrY9kSn0+i0ZBUr0zoRWvNQebkUz4SBRhKRbQALVoMS1wuesKxqxVrE3ZC8Jsd3SyTZiQ1UANuB+U76mvA1Duxn+8f1PX25TX/dBMmXcCZo36jhbprT6SKdDdfjVah34gevCp5mft7r0j8LU/pLRs5oNcdzfHDiOdj3nNgNVV86MbuW1b/kIxaENRstSc6lE2AbYJLi+4Nuqv1ZZKhe2OuqftT5qTzC9l6m1pgyurr+Ve9ZlqGsGABdl1UF7ELuo5ola8Lh3yZPp9toKpbxQ6xuiP/28YbWWzfgwLGOG+kWxXu36GPTAdqV8Gk+QMeelIBkEqWEJv9/DGdXdbro6aVc4HjnOg6Jm0rEVoRmfHdVEyAF/4ymJXtEvkg1xS6pkEqutJHjNdBUzpVUK2S722+rQqJaUha7Bc7WbdGzPS8kvFdr4ffFXgGMblR+MCwCFGsKmyewgfNUx1qz2BajsWBYAt/vAhRxmav0U0YyXYDj3je92pomMnc6JQ==X02n7"
 confluence_license = "confluence-license"
 bitbucket_license = "bitbucket-license"
 
